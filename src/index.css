@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Assets/shhh-dark.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  border: 1px solid purple;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(247, 0, 255, 0.57);
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(39, 35, 40, 0.74);
+  color: white;
+
+
+}
+
+.card-image img{
+  width: 249px;
+}
+.card-button button{
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.card-button button:hover{
+  background-color: #45a8d6;
+}
+
+.stack-cards{
+  width: 80%;
+  text-align: center ;
+  margin-left: 10%;
+
+
+}
+.stack-cards > .card {
+  display: inline-block;
+}
+.NAVI{
+  background-color: black;
+  position: fixed  ;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }

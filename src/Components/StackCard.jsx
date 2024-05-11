@@ -1,15 +1,12 @@
 import React from "react";
-import Card from "./Card";
-import CardData from "./CardData";
+import Home from "./Home";
 
 const StackCard = () => {
   return (
     <>
-      <div className="stack-cards">
-
-        <Card details={CardData} />
+      <div className="stack-cards" >
+        <Home />
       </div>
-
     </>
   );
 };

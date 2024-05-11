@@ -5,7 +5,7 @@ import PythonStackCard from "./Components/pythoncard/PythonStackCard";
 import CppStackCard from "./Components/cppcard/CppStackCard";
 import JavaStackCard from "./Components/javacard/JavaStackCard";
 import CsharpStackCard from "./Components/csahrpcard/CppStackCard";
-import Home from "./Components/Home";
+
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navi from "./navbar/Navi";
 import { Container, Row, Col } from "reactstrap";
@@ -31,6 +31,7 @@ function App() {
           <Col  xs="9">
             {/*card list */}
             <Routes>
+              <Route path="/" element={<StackCard />} />
               <Route path="python" element={<PythonStackCard />} />
               <Route path="csharp" element={<CsharpStackCard />} />
               <Route path="Java" element={<JavaStackCard />} />

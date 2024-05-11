@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./Assets/shhh-dark.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
 }
 
 code {
@@ -60,4 +64,5 @@ code {
   top: 0;
   width: 100%;
   transition: top 0.3s;
+  padding-top: 10%;
 }

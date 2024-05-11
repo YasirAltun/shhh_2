@@ -1,0 +1,28 @@
+.button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: '#ff5722';
+    color: '#ffffff'; 
+       
+}
+.button:hover{
+    background-color: darkblue;
+
+}
+.btn1{
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 4px;
+    height: 36px;
+    width: 120px;
+    margin: 10px 10px 10px 10px  ;
+
+}
+.btn1:hover{
+    background-color: darkblue;
+}
+.ttl3{
+    color: #fff;
+}
+

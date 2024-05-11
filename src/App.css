@@ -8,6 +8,10 @@
 .navbar {
   grid-column: 1 / -1; /* Navbar'ın tüm genişliğe yayılması */
   position: sticky;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  background-color: black;
 }
 
 .categories {

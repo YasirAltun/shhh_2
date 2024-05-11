@@ -27,12 +27,12 @@ function App() {
       <div className="cards">
         {/* Kartlar için alan */}
         <Routes>
-              <Route path="/" element={<StackCard />} />
-              <Route path="python" element={<PythonStackCard />} />
-              <Route path="csharp" element={<CsharpStackCard />} />
-              <Route path="Java" element={<JavaStackCard />} />
-              <Route path="Cpp" element={<CppStackCard />} />
-            </Routes>
+          <Route path="/" element={<StackCard />} />
+          <Route path="python" element={<PythonStackCard />} />
+          <Route path="csharp" element={<CsharpStackCard />} />
+          <Route path="Java" element={<JavaStackCard />} />
+          <Route path="Cpp" element={<CppStackCard />} />
+        </Routes>
       </div>
     </div>
     </div>

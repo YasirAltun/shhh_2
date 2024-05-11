@@ -61,8 +61,34 @@ code {
 .NAVI{
   background-color: black;
   position: fixed  ;
-  top: 0;
+  top: -10px;
   width: 100%;
   transition: top 0.3s;
-  padding-top: 10%;
+  margin-top: 8px;
+}
+
+.Home-Video video{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 15%;
+  top: 10%;
+  height: 500px;
+  width: 1000px;
+  position: absolute;
 }

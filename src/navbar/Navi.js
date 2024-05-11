@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './Navi.css'
+import { Routes, Route } from 'react-router-dom';
+import Home from '../Components/Home';
 
 
 export default class Navi extends Component {
@@ -11,6 +13,8 @@ export default class Navi extends Component {
         <a href="/news">News</a>
         <a href="/contact">Contact</a>
         <a href='/login' class="split">Login</a>
+
+        
       </div>
     );
   }

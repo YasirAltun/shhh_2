@@ -22,15 +22,14 @@
     color: black;
   }
   #navbar a.split{
-  right: 0;
+  right: 0%;
   background-color: black;
   color: white;
+  position: right 0;
+
   }
   #navbar a.split:hover{
     background-color: white;
     color: black;
-    right: 0;
-  }
-  .ttl2{
-    background-color: black;
+    position: right 0;
   }

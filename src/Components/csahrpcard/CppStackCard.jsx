@@ -3,7 +3,7 @@ import Card from "../Card";
 import CardData from "./CardData";
 
 
-const CppStackCard = () => {
+const CsharpStackCard = () => {
   return (
     <>
     <div className="stack-cards">
@@ -12,4 +12,4 @@ const CppStackCard = () => {
     </>
   );
 }    
-export default CppStackCard;
+export default CsharpStackCard;

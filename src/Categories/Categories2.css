@@ -13,7 +13,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*
 .category-item {
     color: white;
     margin-bottom: 10px;
@@ -26,27 +26,15 @@
     font-size: 16px;
 
 }
+*/
 
-.category-item a:hover {
-    color: blue;
-}
-.button {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background-color: '#ff5722';
-    color: '#ffffff'; 
-       
-}
-.button:hover{
-    background-color: darkblue;
 
-}
 .btn1{
     
-    font-size: large;
+    font-size: larger;
     border: none;
-    background-color: black;
-    color: #fff;
+    background-color: #68D2E8;
+    color: #EEF7FF;
     border-radius: 4px;
     height: 50px;
     width: 150px;
@@ -54,7 +42,8 @@
 
 }
 .btn1:hover{
-    background-color: grey;
+    background-color: #EEF7FF;
+    color: black;
 }
 .ttl3{
     color: #fff;

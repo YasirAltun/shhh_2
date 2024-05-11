@@ -18,13 +18,13 @@ code {
 }
 
 .card {
-  border: 1px solid purple;
+  border: 1px solid #68D2E8;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(247, 0, 255, 0.57);
+  box-shadow: 0 0 10px rgba(60, 107, 249, 0.57);
   width: 250px;
   padding: 20px;
   margin: 20px;
-  background-color: rgba(39, 35, 40, 0.74);
+  background-color: rgba(111, 105, 113, 0.74);
   color: white;
   top: 10%;
 

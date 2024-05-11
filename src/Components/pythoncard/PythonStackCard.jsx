@@ -1,16 +1,15 @@
 import React from "react";  
-import Card from "./Card";
+import Card from "../Card";
 import CardData from "./CardData";
 
 
-const StackCard = () => {
+const PythonStackCard = () => {
   return (
     <>
     <div className="stack-cards">
         <Card details={CardData} />
-        
     </div>
     </>
   );
 }    
-export default StackCard;
+export default PythonStackCard;

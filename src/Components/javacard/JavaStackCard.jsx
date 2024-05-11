@@ -3,7 +3,7 @@ import Card from "../Card";
 import CardData from "./CardData";
 
 
-const StackCard = () => {
+const JavaStackCard = () => {
   return (
     <>
     <div className="stack-cards">
@@ -12,4 +12,4 @@ const StackCard = () => {
     </>
   );
 }    
-export default StackCard;
+export default JavaStackCard;

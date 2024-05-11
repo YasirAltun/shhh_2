@@ -1,5 +1,5 @@
 import React from "react";
-import PythonImg from "../Assets/SHHHPython.jpg";
+
 import { Link } from "react-router-dom";
 
 const Card = (props) => {

@@ -1,5 +1,4 @@
-import PythonImg from "../Assets/SHHHPython.jpg";
-
+import PythonImg from "https://picsum.photos/seed/picsum/200/300";
 const CardData = [
     {
         img: PythonImg,

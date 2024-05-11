@@ -8,11 +8,11 @@ export default class Navi extends Component {
 
   render() {
     return (
-      <div class=".ttl2" id="navbar">
-        <a href="/">Home</a>
-        <a href="/news">News</a>
-        <a href="/contact">Contact</a>
-        <a href='/login' class="split">Login</a>
+      <div  id="navbar">
+        <a href="/">Anasayfa</a>
+        <a href="/news">Blog</a>
+        <a href="/contact">İletişim</a>
+        <a href='/login' class="split">Oturum Aç</a>
 
         
       </div>

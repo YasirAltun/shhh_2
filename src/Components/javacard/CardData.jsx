@@ -27,6 +27,55 @@ const CardData = [
         videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
 
     },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
+    {
+        img: PythonImg,
+        title: 'JAVA-3',
+        description: 'Python is a programming language that lets you work quickly and integrate systems more effectively. Learn more about Python.',
+        videoURL: 'https://www.youtube.com/watch?v=enjFjpxQk0E'
+
+    },
  
   
     

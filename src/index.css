@@ -87,9 +87,8 @@ code {
 }
 
 .video-responsive iframe {
-  left: 50%;
-  top: 50%;
+  left: auto;
+  top: auto;
   height: 500px;
   width: 1000px;
-  position: absolute;
 }

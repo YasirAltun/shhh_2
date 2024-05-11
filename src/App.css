@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Navbar ve alt bölüm için satır boyutları */
+  grid-template-columns: 200px 1fr; /* Kategori listesi ve kartlar için sütun boyutları */
+  height: 100vh; /* Tüm ekranı kaplaması için */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  grid-column: 1 / -1; /* Navbar'ın tüm genişliğe yayılması */
+  position: sticky;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.categories {
+  grid-column: 1; /* İlk sütunda yer alacak */
+  position: sticky;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards {
+  grid-column: 2; /* İkinci sütunda yer alacak */
 }

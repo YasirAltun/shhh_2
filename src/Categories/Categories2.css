@@ -2,8 +2,8 @@
     background-color: transparent;
     padding: 10px;
     width: 200px;
-    position: fixed; /* Sabit pozisyon */
-    top: 50px; /* Navbar yüksekliğine göre ayarla */
+    position:relative; /* Sabit pozisyon */
+    top: auto; /* Navbar yüksekliğine göre ayarla */
     bottom: auto; /* Alt kısma kadar uzanır */
     left: 0; /* Sol kenara yasla */
 }

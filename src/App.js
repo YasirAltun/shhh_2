@@ -15,31 +15,26 @@ import Categories2 from "./Categories/Categories2";
 function App() {
   return (
     <div>
-      <Container>
-        <div className="NAVI">
-        <Row xs="12">
-          <Col xs="12">
-            <Navi  />
-          </Col>
-        </Row>
-         </div>
-        <Row>
-          <Col xs="3">
-            {/*Category list */}
-            <Categories2 />
-          </Col>
-          <Col  xs="9">
-            {/*card list */}
-            <Routes>
+       <div className="container">
+      <div className="navbar">
+        {/* Navbar içeriği */}
+        <Navi />
+      </div>
+      <div className="categories">
+        {/* Kategori listesi */}
+        <Categories2 />
+      </div>
+      <div className="cards">
+        {/* Kartlar için alan */}
+        <Routes>
               <Route path="/" element={<StackCard />} />
               <Route path="python" element={<PythonStackCard />} />
               <Route path="csharp" element={<CsharpStackCard />} />
               <Route path="Java" element={<JavaStackCard />} />
               <Route path="Cpp" element={<CppStackCard />} />
             </Routes>
-          </Col>
-        </Row>
-      </Container>
+      </div>
+    </div>
     </div>
   );
 }
